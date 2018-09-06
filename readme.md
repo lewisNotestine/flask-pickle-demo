@@ -26,11 +26,15 @@ The request body for this last request is structured as follows:
 	[500, 1.0, 1.0]
 ]
 ```
+The data here are for three properties. For each property:
 
-The first element is the square footage. The second is quality of the view from the property, rated from 0 to 4. The third is the rating of the condition of the property, rated from 1 to 5.
+* The first element is the square footage. 
+* The second is quality of the view from the property, rated from 0 to 4. 
+* The third is the rating of the condition of the property, rated from 1 to 5.
 
 ### Output
-The output of the API is returned as a price estimate in US Dollars, e.g.:
+The output of the API is returned as a price estimate in US Dollars for each property, respectively:
+
 ```
 [781973.5926785413, 1526208.3288016743, 130384.2018653102]
 ```
