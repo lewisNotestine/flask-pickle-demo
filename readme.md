@@ -1,4 +1,4 @@
-# Demonstration of Pickled Scikit-Learn Models Used in a Flask App.
+# Demo: Pickled Scikit-Learn Models Used in a Flask App.
 
 ## Overview
 This is a demo project intended to show how a pickled model (that was trained using a Jupyter notebook) can be extracted from its native environment and then put to work in a web app.
